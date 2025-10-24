@@ -1,0 +1,37 @@
+/* body{
+    display: flex;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+
+} */
+.carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin: 300px 100px;
+    z-index: 10;
+    background-color: rgb(173, 27, 27);
+    height: 1000px;
+    box-shadow: 10px 10px ;
+
+}
+.Daniel-Clifford{
+    background-color: aqua;
+
+}
+.Jonathan-Walters{
+    background-color: blue;
+}
+.Jeanette-Harmon{
+    background-color: blueviolet;
+}
+.Patrick-Abrams{
+    background-color: burlywood;
+}
+.Kira-Whittle{
+    background-color: chartreuse;
+}
